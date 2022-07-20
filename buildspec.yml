@@ -16,7 +16,6 @@ phases:
     commands:
     - echo Build start on 'date'
     - dotnet build
-    - dotnet test
     - echo Build ends on 'date'
   post_build:
     on-failure: ABORT
